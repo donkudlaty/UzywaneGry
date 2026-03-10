@@ -57,7 +57,7 @@ async def buy(update: Update, context: ContextTypes.DEFAULT_TYPE):
     else:
         await update.message.reply_text("Za mało środków")
 
-app = ApplicationBuilder().token(8625870692:AAHt96-dJquhz3MMoRIH02DdpNvV4pDvMuY).build()
+app = ApplicationBuilder().token(TOKEN).build()
 
 app.add_handler(CommandHandler("start", start))
 app.add_handler(CommandHandler("wallet", wallet))
