@@ -2,7 +2,7 @@ from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 import sqlite3
 
-TOKEN = "TU_WKLEJ_TOKEN"
+TOKEN = "8625870692:AAHt96-dJquhz3MMoRIH02DdpNvV4pDvMuY"
 
 db = sqlite3.connect("wallet.db", check_same_thread=False)
 cursor = db.cursor()
